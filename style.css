@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     font-family: "inter";
-    width: 100%;
 }
 
 body{
@@ -80,6 +79,7 @@ body{
     font-family: "inter";
     font-size: 80%;
     font-weight: 300;
+    border-radius: 10px;
     box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25);
     cursor: pointer;
 }
@@ -98,13 +98,12 @@ body{
     padding-top: 5%;
     padding-bottom: 5%;
     width: 100%;
-    height: 1350px;
+    height: auto;
 
 }
 
     header{
         color: #ffffff;
-        font-family: "inter";
         text-align: center;
         padding-top: 2%;
         padding-bottom: 9%;
@@ -130,7 +129,7 @@ body{
 
     header .fundoPreto{
         background-color: black;
-        font-weight: 660;
+        font-weight: bold;
     }
 
     form{
@@ -158,7 +157,7 @@ body{
         }
 
         .formulario input{
-            width: 100%;
+            width: 98.5%;
             height: 30px;
             border: 1px, solid, #bababa;
             border-radius: 5px;
@@ -194,7 +193,7 @@ body{
             width: 100%;
             align-items: center;
             justify-content: space-between;
-    }
+        }
 
     #cadastrar{
         justify-content: space-around;
@@ -227,13 +226,6 @@ footer{
         width: 100%;
     }
 
-    footer .rodape1{
-        display: flex;
-        justify-content: space-around;
-        height: 320px;
-        width: 100%;
-    }
-
     footer ul{
         list-style: none;
         margin: 0px;
@@ -245,7 +237,8 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 3% 0% 1%;
+        margin: 3% 0% 1% 0%;
+        width: 100%;
     }
 
     footer h3{
@@ -282,6 +275,7 @@ footer{
     footer .cnpj{
         display: flex;
         align-items: center;
+        justify-content: center;
         padding-top: 2.5%;
         
     }
@@ -299,6 +293,7 @@ footer{
     footer .termosEpoliticas{
         display: flex;
         align-items: center;
+        justify-content: center;
         height: 30px;
         width: 100%;
         font-size: 15px;
@@ -325,3 +320,157 @@ footer{
         color: #bababa;
         
     }
+
+/* Media Queries */
+
+@media only screen and (max-width: 915px){
+    #menuPrincipal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+
+    #menuPrincipalDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #menuPrincipalDiv a{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        height: 50px;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+        font-size: clamp(1em, 10vw, 1,5em);
+    }
+
+    #menuPrincipal button{
+        width: 75%;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        border-radius: 10px;
+    }
+
+    header h1{
+        font-size: clamp(1.5em, 1.5em + 5vw, 4em);
+        font-size: 300%;
+    }
+
+    header h2{
+        font-size: clamp(0.8em, 0.8em + 1vw, 2.8em);
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    header .fundoPreto{
+        font-weight: bold;
+    }
+
+    #section1{
+        border: 1px solid #BABABA;
+        background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19%, rgba(12, 112, 242, 0.00) 23.75%), #303030;
+        background-repeat: no-repeat;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .formulario{
+        width: 100%;
+        font-size: clamp(0.7em, 0.7em + 1vw, 2.8em);
+
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2.5%;
+
+        color: #ffffff
+    }
+
+    .formulário input{
+        align-content: center;
+    }
+
+    .checkboxs{
+        width: 100%;
+        height: auto;
+        font-size: clamp(0.7em, 0.7em + 1vw, 2.7em);
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+
+    form .cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    form .cadastro #cadastrar{
+        height: 3%;
+        width: 75%;
+        font-size: clamp(0.5em, 0.5em + 1vw, 2.5em);
+    }
+
+    footer .rodape1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+
+    footer h3{
+        font-size: clamp(0.8em, 0.8em + 1vw, 2.8em);
+
+    }
+
+    footer ul li{
+        font-size: clamp(0.7em, 0.7em + 1vw, 2.7em);
+    }
+
+    footer .cnpj{
+        padding: 2% 0% 2% 0%;
+        width: 60%;
+        display: flex;
+    }
+
+    footer h4{
+        font-size: clamp(0.4em, 0.4em + 1vw, 2.5em);
+        display: flex;
+        align-content: center;
+        align-items: center;
+
+    }
+
+    footer .termosEpoliticas{
+        font-size: clamp(0.7em, 0.7em + 1vw, 2.7em);
+        height: auto;
+        padding: 2% 0% 2% 0%;
+    }
+
+    footer .termosEpoliticas a{
+        font-size: clamp(0.25em, 0.25em + 1vw, 2.5em);
+    }
+
+    
+
+}
