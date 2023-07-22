@@ -366,12 +366,14 @@ footer{
     header h1{
         font-size: clamp(1.5em, 1.5em + 5vw, 4em);
         font-size: 300%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     header h2{
         font-size: clamp(0.8em, 0.8em + 1vw, 2.8em);
-        padding-left: 4%;
-        padding-right: 4%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     header .fundoPreto{
@@ -454,8 +456,8 @@ footer{
     }
 
     footer .cnpj{
-        padding: 2% 0% 2% 0%;
-        width: 60%;
+        /*padding: 2% 0% 2% 0%;*/
+        width: 94%;
         display: flex;
     }
 
