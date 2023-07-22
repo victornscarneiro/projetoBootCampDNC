@@ -194,13 +194,19 @@ body{
             align-items: center;
             justify-content: space-between;
         }
-
+    
+    .cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     #cadastrar{
         justify-content: space-around;
         align-items: center;
 
         height: 4%;
-        width: 100%;
+        width: 60%;
         font-size: 75%;
         font-weight: 500;
 
@@ -283,7 +289,7 @@ footer{
     footer h4{
         color: #ffffff;
         text-align: center;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 500;
         width: 80%;
         height: 80px;
@@ -296,7 +302,7 @@ footer{
         justify-content: center;
         height: 30px;
         width: 100%;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 500;
         margin: 0px;
         padding-top: 0.5%;
