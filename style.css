@@ -133,7 +133,7 @@ body{
     }
 
     form{
-        width: 60%;
+        width: 75%;
         padding-top: 1%;
         padding-bottom: 2.5%;
         margin-bottom: 1.25%;
@@ -349,25 +349,25 @@ footer{
         display: flex;
         text-align: center;
         align-items: center;
-        height: 50px;
+        height: 30px;
         justify-content: center;
         width: 100%;
         padding: 0px;
-        font-size: clamp(1em, 10vw, 1,5em);
+        font-size: clamp(0.5em, 0.5em + 1vw, 2em);
     }
 
     #menuPrincipal button{
-        width: 75%;
-        margin-top: 1%;
+        
+        width: 37.5%;
+        margin-top: 2.5%;
         margin-bottom: 3%;
         border-radius: 10px;
     }
 
     header h1{
-        font-size: clamp(1.5em, 1.5em + 5vw, 4em);
-        font-size: 300%;
-        padding-left: 3%;
-        padding-right: 3%;
+        font-size: clamp(1.25em, 1.25em + 5vw, 4em);
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     header h2{
@@ -398,7 +398,7 @@ footer{
 
     .formulario{
         width: 100%;
-        font-size: clamp(0.7em, 0.7em + 1vw, 2.8em);
+        font-size: clamp(0.65em, 0.65em + 1vw, 2.65em);
 
         display: flex;
         flex-direction: column;
@@ -447,12 +447,12 @@ footer{
     }
 
     footer h3{
-        font-size: clamp(0.8em, 0.8em + 1vw, 2.8em);
+        font-size: clamp(1em, 1em + 1vw, 3em);
 
     }
 
     footer ul li{
-        font-size: clamp(0.7em, 0.7em + 1vw, 2.7em);
+        font-size: clamp(0.8em, 0.8em + 1vw, 2.8em);
     }
 
     footer .cnpj{
